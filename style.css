@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    color: purple;
+    background-color: yellowgreen;
+  }
+  
+  .container {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top:250px
+  }
+  
+  h1 {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-size: 36px;
+  }
+  
+  .form-group {
+    margin: 20px 0;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #c29d9d;
+  }
+  
+  button[type="submit"] {
+    padding: 10px;
+    background-color: #697c9a;
+    color: #ece6e6;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  #result {
+    margin-top: 50px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  #result.underweight {
+    color: #f44336;
+  }
+  
+  #result.normal {
+    color: #a0ddea;
+  }
+  
+  #result.overweight {
+    color: #ff9800;
+  }
+  
+  #result.obese {
+    color: #f44336;
+  }
+  
