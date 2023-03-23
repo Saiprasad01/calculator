@@ -1,0 +1,14 @@
+.parent button{
+    border: 1px solid #e5d7ff;
+    border-radius: 5px;
+    box-shadow: 0 1px #d1b8ff;
+}
+
+.parent button:hover{
+    border: 1px solid #d1b8ff;
+    background-color: #e9ddff;
+}
+
+.parent button:active{
+    transform: translateY(1px);
+}

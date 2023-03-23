@@ -1,6 +1,10 @@
-# js-task
-In this task here the user gives input about their weight and height and it returns the bmi index of that person according to the given inputs.
 
-Also the output color changes accordint to the category of the bmi index. For eg: If the person is obese then the color will be red. If they are normal then color will be green and so on.
+  # calc
 
-Here I have used the javascript DOM and event listeners, When the user click on the submit button an event is triggered which takes the values from the field and returns the BMI index.
+  Note: Please ensure you have installed <code><a href="https://nodejs.org/en/download/">nodejs</a></code>
+
+  To preview and run the project on your device:
+  1) Open project folder in <a href="https://code.visualstudio.com/download">Visual Studio Code</a>
+  2) In the terminal, run `npm install`
+  3) Run `npm start` to view project in browser
+  
